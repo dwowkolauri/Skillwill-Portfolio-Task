@@ -15,6 +15,13 @@ h2 {
   font-size: 36px;
   padding-bottom: 20px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .main-container {
   display: flex;
   margin: 0 auto;
@@ -166,12 +173,14 @@ ul li {
   align-items: center;
   gap: 10px;
   flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0 16px 20px;
 }
 .brand-images img {
   height: 60px;
   width: auto;
-  max-height: 60px;
-  flex: 0 1 auto;
+  min-width: 80px;
+  flex: 0 0 auto;
   min-width: 0;
   object-fit: contain;
 }
