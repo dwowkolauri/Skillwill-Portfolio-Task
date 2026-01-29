@@ -162,15 +162,14 @@ ul li {
 }
 .brand-images {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
+  justify-content: space-between;
+  align-items: center;
   gap: 24px;
   flex-wrap: nowrap;
   overflow: hidden;
-  padding: 40px;
 }
 .brand-images img {
-  height: 44px;
+  height: auto;
   max-width: 90px;
 }
 .big-P {
