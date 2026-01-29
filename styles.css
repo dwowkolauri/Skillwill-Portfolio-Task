@@ -110,7 +110,7 @@ h2 {
   display: flex;
   flex-direction: column;
   flex: 1;
-  height: auto;
+  min-width: 0;
 }
 .bio {
   background-color: #ffffff;
@@ -163,14 +163,13 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 10px;
+  gap: 24px;
   flex-wrap: nowrap;
-  padding: 0 32px 32px;
+  overflow: hidden;
 }
 .brand-images img {
-  height: 49px;
-  max-width: 100px;
-  object-fit: contain;
+  height: 44px;
+  max-width: 90px;
 }
 .big-P {
   display: flex;
