@@ -17,16 +17,14 @@ h2 {
 }
 .main-container {
   display: flex;
-  justify-content: space-evenly;
   margin: 0 auto;
   gap: 32px;
-  max-width: 1200px;
-  padding: 32px;
+  max-width: 1400px;
 }
 .left-section {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  flex: 0 0 420px;
   height: auto;
 }
 .profile {
@@ -111,7 +109,7 @@ h2 {
 .right-section {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  flex: 1;
   height: auto;
 }
 .bio {
@@ -163,14 +161,16 @@ ul li {
 }
 .brand-images {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
   gap: 10px;
-  flex-wrap: wrap;
-  padding-bottom: 20px;
+  flex-wrap: nowrap;
+  padding: 0 32px 32px;
 }
 .brand-images img {
-  height: 60px;
+  height: 49px;
+  max-width: 100px;
+  object-fit: contain;
 }
 .big-P {
   display: flex;
