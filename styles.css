@@ -171,14 +171,14 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: nowrap;
   padding: 0 10px 20px;
 }
 .brand-images img {
-  height: 42px;
+  height: 35px;
   width: auto;
-  min-width: 42px;
+  min-width: 35px;
   flex: 0 1 auto;
   flex-shrink: 1;
   min-width: 0;
