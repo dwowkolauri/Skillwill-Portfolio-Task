@@ -166,6 +166,7 @@ ul li {
   gap: 24px;
   flex-wrap: nowrap;
   overflow: hidden;
+  padding: 10px 20px;
 }
 .brand-images img {
   height: 44px;
