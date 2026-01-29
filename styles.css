@@ -8,6 +8,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-style: normal;
   color: #3a3d5b;
+  padding: 40px;
 }
 h2 {
   font-weight: 800;
@@ -17,7 +18,10 @@ h2 {
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px auto;
+  margin: 0 auto;
+  gap: 32px;
+  max-width: 1200px;
+  padding: 32px;
 }
 .left-section {
   display: flex;
