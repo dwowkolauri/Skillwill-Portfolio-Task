@@ -74,7 +74,6 @@ h2 {
 .brief-summary h2 {
   padding-left: 40px;
   color: #3a3d5b;
-  width: 70%;
   font-weight: 500;
   font-size: 34px;
 }
@@ -166,7 +165,7 @@ ul li {
   gap: 24px;
   flex-wrap: nowrap;
   overflow: hidden;
-  padding: 10px 20px;
+  padding: 40px;
 }
 .brand-images img {
   height: 44px;
