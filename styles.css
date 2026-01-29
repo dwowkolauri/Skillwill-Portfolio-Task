@@ -6,7 +6,6 @@
 body {
   background-color: #1d2254;
   font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   color: #3a3d5b;
 }
@@ -18,12 +17,12 @@ h2 {
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 .left-section {
   display: flex;
   flex-direction: column;
-  width: 619px;
+  width: 35%;
   height: auto;
 }
 .profile {
@@ -108,7 +107,7 @@ h2 {
 .right-section {
   display: flex;
   flex-direction: column;
-  width: 1075px;
+  width: 55%;
   height: auto;
 }
 .bio {
