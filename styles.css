@@ -165,11 +165,15 @@ ul li {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  flex-wrap: nowrap;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 .brand-images img {
   height: 60px;
+  width: auto;
+  max-height: 60px;
+  flex: 0 1 auto;
+  min-width: 0;
+  object-fit: contain;
 }
 .big-P {
   display: flex;
